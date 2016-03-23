@@ -1,11 +1,11 @@
 
-= BalleReseau
+# BalleReseau
 
-== Introduction
+## Introduction
 
 jeu classique de balle rebondissant sur les bords de l'écran, version POO
 
-== Réseau
+## Réseau
 
 rajout d'un contrôleur réseau qui écoute sur le port 5555 par défaut (paramétrable si le constructeur est surchargé) et qui décode les commandes suivantes:
 
@@ -13,7 +13,7 @@ rajout d'un contrôleur réseau qui écoute sur le port 5555 par défaut (param�
     cr=100           couleur rouge des balles positionnée à 100
     alea=1           taille et couleur aléatoire pour toutes les balles
 
-== Client réseau
+## Client réseau
 
 netcat, ou nc, est le client à utiliser dans un premier temps
 
